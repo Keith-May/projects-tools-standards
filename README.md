@@ -86,6 +86,33 @@ HuTime is a time information system software application that can help users vis
 ### Matrix
 
 The Matrix investigates how digital data from archaeological excavations can be more consistently recorded, analysed, disseminated and archived in a way that is Findable, Accessible, Interoperable and Re-useable (FAIR). In particular, the work addresses the lack of standardised approaches to the digital archiving and reuse of archaeological data stratigraphic and phasing data.
+The Matrix project has developed software for archaeologists to undertake stratagraphic analysis - the prototype tool is called "Phaser".
+A Help file explaining more of the functionality of the Phaser software and how to use it is available at: https://stratigraphic.github.io/phaser-app/help.html
+
+## <a name="e">Phaser - prototype Grouping and Phasing software tool
+The Prototype _**is not intended currently to be fully functioning**_ Matrix recording and Stratigraphic Phasing analysis and archiving software.  It would need more development and administrative work to make it available e.g. as Open and FAIR software through an online tool with suitable registration for an archaeological community of users.
+
+The Prototype _**is designed to enable demonstration**_ and an overview of what we have developed so far in the Matrix project and particularly to elicit feedback from the archaeological community on what such an online tool might need to do to encourage archaeologists involved in Post-excavation analysis to use it and support it’s improvement and sustainability through its development life-cycle.
+
+Please note that in the current prototype stage _**it is not recommended to try loading a CSV file with more than around 500-3000 individual context records**_.  Depending upon feedback on this initial development, the software could be further developed to enable larger numbers of records to be entered, but this would require more time and further resources to enable testing and resolving scaleability issues. 
+
+The prototype is currently available from the following web link: [https://stratigraphic.github.io/phaser-app/](https://stratigraphic.github.io/phaser-app/)
+
+An example test data set is available here: [https://raw.githubusercontent.com/stratigraphic/matrix/main/CTD2021-Test-Data/CTD2021-phaser-20210504114322-with-Dating-test-data.json](https://raw.githubusercontent.com/stratigraphic/matrix/main/CTD2021-Test-Data/CTD2021-phaser-20210504114322-with-Dating-test-data.json) 
+
+A **Help file explaining more of the functionality of the Phaser software** and how to use it is available at: [https://stratigraphic.github.io/phaser-app/help.html](https://stratigraphic.github.io/phaser-app/help.html)
+  
+  Here is a short video clip explaining how to Import a CSV file into Phaser software 
+<video width="320" height="240" controls>
+  <source type="video/mp4" src="https://github.com/stratigraphic/matrix/blob/gh-pages/images/Importing_CSV_file_example5.mp4?raw=true">
+</video>
+
+Or make your own .CSV file data set using the following _**4 key fields**_ with the matching field name headings.
+CSV column heading names need to be exactly as spelt below:
+* siteCode
+* sourceID
+* stratRelationship
+* targetID
 
 * [The Matrix](https://stratigraphic.github.io/matrix/)
 
